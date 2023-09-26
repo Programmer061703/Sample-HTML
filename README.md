@@ -1,0 +1,3 @@
+# paradigmsHWTS
+
+Development using Typescript
