@@ -1,3 +1,3 @@
-# paradigmsHWTS
+# Sample HTML
 
 Development using Typescript
