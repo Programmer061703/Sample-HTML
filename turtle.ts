@@ -163,6 +163,7 @@ class Game {
     model: Model;
     view: View;
     controller: Controller;
+   
 
     constructor() {
         this.model = new Model();
@@ -179,3 +180,4 @@ class Game {
 
 const game = new Game();
 const timer = setInterval(() => { game.onTimer(); }, 40);
+
