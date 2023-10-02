@@ -133,17 +133,17 @@ class Controller {
     }
 
     keyDown(event: KeyboardEvent) {
-        if (event.keyCode == 39) this.key_right = true;
-        else if (event.keyCode == 37) this.key_left = true;
-        else if (event.keyCode == 38) this.key_up = true;
-        else if (event.keyCode == 40) this.key_down = true;
+        if (event.key === 'ArrowRight') this.key_right = true;
+        else if (event.key === 'ArrowLeft') this.key_left = true;
+        else if (event.key === 'ArrowUp') this.key_up = true;
+        else if (event.key === 'ArrowDown') this.key_down = true;
     }
 
     keyUp(event: KeyboardEvent) {
-        if (event.keyCode == 39) this.key_right = false;
-        else if (event.keyCode == 37) this.key_left = false;
-        else if (event.keyCode == 38) this.key_up = false;
-        else if (event.keyCode == 40) this.key_down = false;
+        if (event.key === 'ArrowRight') this.key_right = false;
+        else if (event.key === 'ArrowLeft') this.key_left = false;
+        else if (event.key === 'ArrowUp') this.key_up = false;
+        else if (event.key === 'ArrowDown') this.key_down = false;
     }
 
     update() {
