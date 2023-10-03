@@ -1,4 +1,4 @@
 .#!/bin/bash
 set -u -e
-tsc turtle.ts
+tsc --strict turtle.ts
 open TurtleAttack!.html
